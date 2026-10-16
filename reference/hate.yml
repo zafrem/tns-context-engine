@@ -1,0 +1,8 @@
+category: hate
+series: 2
+concepts:
+  - {code: 2001, name: hate_slur_ethnic, description: "Slurs targeting ethnicity, nationality or race.", rank_default: 5}
+  - {code: 2002, name: hate_slur_gender, description: "Slurs targeting gender or sexual orientation.", rank_default: 5}
+  - {code: 2003, name: hate_slur_religion, description: "Slurs targeting religion.", rank_default: 5}
+  - {code: 2004, name: hate_slur_disability, description: "Slurs targeting disability.", rank_default: 5}
+  - {code: 2005, name: hate_exclusion_incitement, description: "Telling a group to leave or be excluded (e.g. 'go back to your country').", rank_default: 4}

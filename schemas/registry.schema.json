@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "reference/registry.yml and reference/released.yml",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "codes"],
+  "properties": {
+    "version": {"type": "integer", "minimum": 0},
+    "codes": {
+      "type": "object",
+      "propertyNames": {"pattern": "^[a-z][a-z0-9_]*$"},
+      "additionalProperties": {"type": "integer", "minimum": 1000, "maximum": 9999}
+    }
+  }
+}

@@ -1,0 +1,5 @@
+category: cross_cutting
+series: 9
+concepts:
+  - {code: 9001, name: cross_cutting_obfuscation_marker, description: "Evasion markers that raise suspicion when combined with other signals.", rank_default: 1}
+  - {code: 9002, name: cross_cutting_contact_redirect, description: "Moving a conversation to a private channel (messenger IDs, phone numbers).", rank_default: 2}

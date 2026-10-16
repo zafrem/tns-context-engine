@@ -1,0 +1,7 @@
+category: fraud
+series: 3
+concepts:
+  - {code: 3001, name: fraud_investment_scam, description: "Guaranteed-return or principal-protected investment pitches.", rank_default: 4}
+  - {code: 3002, name: fraud_phishing, description: "Credential or payment harvesting lures.", rank_default: 4}
+  - {code: 3003, name: fraud_romance_scam, description: "Romance-based financial manipulation.", rank_default: 3}
+  - {code: 3004, name: fraud_impersonation, description: "Impersonating an institution or person to obtain money or data.", rank_default: 3}

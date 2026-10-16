@@ -1,0 +1,6 @@
+category: defamation
+series: 1
+concepts:
+  - {code: 1001, name: defamation_insult, description: "Insulting or demeaning a person.", rank_default: 2}
+  - {code: 1002, name: defamation_false_accusation, description: "Accusing a person of a crime or misconduct (e.g. fraudster); highly context dependent.", rank_default: 2}
+  - {code: 1003, name: defamation_doxxing_threat, description: "Threatening to expose or exposing private information.", rank_default: 4}

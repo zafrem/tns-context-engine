@@ -1,0 +1,21 @@
+version: 1
+# name -> stable code. Append-only; never reuse a code. See category files for details.
+codes:
+  defamation_insult: 1001
+  defamation_false_accusation: 1002
+  defamation_doxxing_threat: 1003
+  hate_slur_ethnic: 2001
+  hate_slur_gender: 2002
+  hate_slur_religion: 2003
+  hate_slur_disability: 2004
+  hate_exclusion_incitement: 2005
+  fraud_investment_scam: 3001
+  fraud_phishing: 3002
+  fraud_romance_scam: 3003
+  fraud_impersonation: 3004
+  illegal_drugs: 4001
+  illegal_weapons: 4002
+  illegal_illegal_gambling: 4003
+  illegal_csam_solicitation: 4004
+  cross_cutting_obfuscation_marker: 9001
+  cross_cutting_contact_redirect: 9002
