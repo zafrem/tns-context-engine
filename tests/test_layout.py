@@ -48,12 +48,6 @@ def test_lang_named_files_use_known_lowercase_tag(path):
     assert load_yaml(path)["lang"] == path.stem
 
 
-def test_pyproject_version_matches_data_version():
-    text = (ROOT / "pyproject.toml").read_text(encoding="utf-8")
-    version = re.search(r'^version\s*=\s*"([^"]+)"', text, re.M).group(1)
-    assert version == meta()["data_version"]
-
-
 def _suspicious_chars(text):
     import unicodedata
 

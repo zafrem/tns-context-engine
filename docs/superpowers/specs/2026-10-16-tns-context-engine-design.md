@@ -70,7 +70,7 @@ tns-context-engine/
 ├── tests/                        # data-integrity tests only
 ├── docs/superpowers/specs/
 ├── INTEGRATION.md
-├── pyproject.toml                # test dependencies only
+├── requirements-test.txt         # test dependencies only (not packaged; used as a git submodule)
 └── README.md
 ```
 
@@ -279,7 +279,7 @@ All tests are data-only, run with `pytest`, and gate CI:
 - `data_version` (semver) for lexicon/scoring/registry content.
 - `schema_version` (integer) for the contracts in `schemas/`.
 - A future engine declares the `schema_version` range it supports and resolves
-  data from a configured root path or an installed data package.
+  data from a configured root path (this repository is consumed as a git submodule, not packaged).
 - Breaking schema changes bump `schema_version`; term additions bump only
   `data_version`.
 

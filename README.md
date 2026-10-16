@@ -11,10 +11,17 @@ implement and `docs/superpowers/specs/` for the design.
 
 Languages (lowercase BCP 47): `en`, `ko`, `ja`, `zh-hans`, `zh-hant`.
 
+## Using it as a submodule
+
+This repository is not packaged. Add it to an engine repo with
+`git submodule add <url> tns-context-engine`, pin the commit or tag you
+tested against, and read the files directly (see `INTEGRATION.md`). Check
+`schema_version` in `reference/meta.yml` before loading.
+
 ## Tests
 
     python3 -m venv .venv && . .venv/bin/activate
-    pip install -e ".[test]"      # add ,re2 for RE2 compile checks
+    pip install -r requirements-test.txt
     pytest -q
 
 ## Layout
@@ -35,6 +42,6 @@ Languages (lowercase BCP 47): `en`, `ko`, `ja`, `zh-hans`, `zh-hant`.
 
 Concept codes are append-only. When cutting a release, copy the current
 `reference/registry.yml` over `reference/released.yml` (keep `version`), bump
-`data_version` in `reference/meta.yml` and `pyproject.toml`, and tag the commit.
+`data_version` in `reference/meta.yml`, and tag the commit.
 `test_codes_are_append_only_against_released_snapshot` then guards every later
 change; review any edit to `released.yml` as a breaking change.

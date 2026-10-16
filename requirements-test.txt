@@ -1,0 +1,5 @@
+pytest>=7.0.0
+pyyaml>=6.0
+jsonschema>=4.17
+# optional: authoritative RE2 compile check for lexicon regexes
+google-re2>=1.0
