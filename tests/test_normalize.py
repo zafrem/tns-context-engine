@@ -26,3 +26,22 @@ def test_rule_ids_unique_and_map_keys_single_char(path):
 def test_every_language_has_normalize_and_stopword_files(lang):
     assert (ROOT / "normalize" / f"{lang}.yml").exists()
     assert (ROOT / "stopwords" / f"{lang}.yml").exists()
+
+
+import re as _re
+
+_PORTABLE_CLASS = _re.compile(r"(?:[^\\\[\]^-](?:-[^\\\[\]^-])?)+")
+
+
+def test_portable_class_check_accepts_ranges_and_rejects_escapes():
+    assert _PORTABLE_CLASS.fullmatch("가-힣")
+    assert _PORTABLE_CLASS.fullmatch("a-zA-Z")
+    assert not _PORTABLE_CLASS.fullmatch(r"\p{Han}")
+    assert not _PORTABLE_CLASS.fullmatch("[a-z]")
+
+
+@pytest.mark.parametrize("path", sorted(ROOT.glob("normalize/*.yml")), ids=rel)
+def test_strip_between_classes_use_only_literals_and_ranges(path):
+    for rule in load_yaml(path)["rules"]:
+        if rule["type"] == "strip_between":
+            assert _PORTABLE_CLASS.fullmatch(rule["between"]), f"{rule['id']}: use only characters and a-b ranges"

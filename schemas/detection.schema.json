@@ -4,7 +4,7 @@
   "type": "object", "additionalProperties": false,
   "required": ["span", "concept", "category", "score", "label", "action", "stage_reached", "matched_entry_ids"],
   "properties": {
-    "span": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 0}},
+    "span": {"description": "Offsets, half-open [start, end), in Unicode code points of the ORIGINAL text (not bytes, not UTF-16 units).", "type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 0}},
     "concept": {"type": "integer", "minimum": 1000, "maximum": 9999},
     "category": {"enum": ["defamation", "hate", "fraud", "illegal", "cross_cutting"]},
     "score": {"type": "number", "minimum": 0, "maximum": 100},

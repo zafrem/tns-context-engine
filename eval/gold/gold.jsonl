@@ -1,6 +1,6 @@
-{"text": "Join now for guaranteed returns on your deposit.", "lang": "en", "labels": [{"concept": 3001, "span": [13, 31]}], "source": "synthetic", "license": "CC0-1.0"}
-{"text": "지금 가입하면 원금보장 수익!", "lang": "ko", "labels": [{"concept": 3001, "span": [8, 12]}], "source": "synthetic", "license": "CC0-1.0"}
-{"text": "元本保証の投資案件です", "lang": "ja", "labels": [{"concept": 3001, "span": [0, 4]}], "source": "synthetic", "license": "CC0-1.0"}
-{"text": "这个项目稳赚不赔，快来投资", "lang": "zh-hans", "labels": [{"concept": 3001, "span": [4, 8]}], "source": "synthetic", "license": "CC0-1.0"}
-{"text": "這個項目穩賺不賠，快來投資", "lang": "zh-hant", "labels": [{"concept": 3001, "span": [4, 8]}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Join now for guaranteed returns on your deposit.", "lang": "en", "labels": [{"concept": 3001, "span": [13, 31], "span_text": "guaranteed returns"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "지금 가입하면 원금보장 수익!", "lang": "ko", "labels": [{"concept": 3001, "span": [8, 12], "span_text": "원금보장"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "元本保証の投資案件です", "lang": "ja", "labels": [{"concept": 3001, "span": [0, 4], "span_text": "元本保証"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "这个项目稳赚不赔，快来投资", "lang": "zh-hans", "labels": [{"concept": 3001, "span": [4, 8], "span_text": "稳赚不赔"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "這個項目穩賺不賠，快來投資", "lang": "zh-hant", "labels": [{"concept": 3001, "span": [4, 8], "span_text": "穩賺不賠"}], "source": "synthetic", "license": "CC0-1.0"}
 {"text": "Thanks for the update, see you tomorrow.", "lang": "en", "labels": [], "source": "synthetic", "license": "CC0-1.0"}

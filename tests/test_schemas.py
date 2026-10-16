@@ -24,3 +24,38 @@ def test_files_match_schema(pattern, schema_name):
     for path in files:
         errors = sorted(validator.iter_errors(load_yaml(path)), key=lambda e: list(e.absolute_path))
         assert not errors, f"{rel(path)}: {_format(errors)}"
+
+
+ALLOWED_EXTENSIONS = {".yml", ".json", ".jsonl", ".md"}
+# Data files that are validated by dedicated tests instead of a GLOBS entry.
+SCHEMA_EXEMPT = {"llm/output_schema.json", "eval/gold/gold.jsonl"}
+
+
+def _data_files():
+    from helpers import DATA_DIRS
+
+    files = []
+    for d in DATA_DIRS:
+        files += [p for p in (ROOT / d).rglob("*") if p.is_file() and "__pycache__" not in p.parts]
+    return sorted(files)
+
+
+def test_every_data_file_has_an_allowed_extension():
+    bad = [rel(p) for p in _data_files() if p.suffix not in ALLOWED_EXTENSIONS]
+    assert not bad, f"unsupported extensions (use .yml, not .yaml): {bad}"
+
+
+def test_every_yaml_file_is_covered_by_a_schema_glob():
+    covered = set()
+    for pattern, _ in GLOBS:
+        covered.update(ROOT.glob(pattern))
+    uncovered = [rel(p) for p in _data_files() if p.suffix == ".yml" and p not in covered]
+    assert not uncovered, f"YAML files with no schema in tests/schema_map.py: {uncovered}"
+
+
+def test_every_json_file_is_a_schema_or_exempt():
+    unknown = [
+        rel(p) for p in _data_files()
+        if p.suffix == ".json" and p.parent.name != "schemas" and rel(p) not in SCHEMA_EXEMPT
+    ]
+    assert not unknown, f"JSON files with no validating test: {unknown}"

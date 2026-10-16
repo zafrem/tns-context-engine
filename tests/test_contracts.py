@@ -46,3 +46,24 @@ def test_llm_output_schema_is_valid_and_covers_all_categories():
     Draft202012Validator.check_schema(schema)
     cats = {c for c in meta()["categories"] if c != "cross_cutting"}
     assert set(schema["properties"]["scores"]["required"]) == cats
+
+
+def _span_property(schema_name):
+    schema = load_json(ROOT / "schemas" / f"{schema_name}.schema.json")
+    props = schema["properties"]
+    if "span" in props:
+        return props["span"]
+    return props["spans"]["items"]["properties"]["span"]
+
+
+@pytest.mark.parametrize("name", ["detection", "nlp_request", "llm_request"])
+def test_span_unit_is_documented_in_the_schema(name):
+    description = _span_property(name).get("description", "")
+    assert "code point" in description and "half-open" in description, name
+
+
+def test_integration_doc_defines_cross_language_semantics():
+    text = (ROOT / "INTEGRATION.md").read_text(encoding="utf-8")
+    for needle in ["code point", "half-open", "floor_min_score", "ambiguous_min", "simultaneous",
+                   "same sentence", "ASCII", "case-fold", "character-class"]:
+        assert needle in text, f"INTEGRATION.md must define: {needle}"

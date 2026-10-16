@@ -5,7 +5,7 @@ rules:
   - id: ja_strip_inserted_symbols
     type: strip_between
     chars: [".", "-", "*", "・"]
-    between: "぀-ヿ一-鿿"
+    between: "\u3040-ヿ一-\u9FFF"
 fixtures:
   - {input: "ﾏﾈｰ", expected: "マネー"}
   - {input: "元.本.保.証", expected: "元本保証"}

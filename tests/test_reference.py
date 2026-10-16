@@ -36,9 +36,27 @@ def test_codes_match_category_series_and_names():
             assert c["name"].startswith(doc["category"] + "_"), c["name"]
 
 
+def append_only_violations(released, current):
+    """Problems if `current` is not an append-only extension of the `released` snapshot."""
+    problems = []
+    for name, code in released.items():
+        if name not in current:
+            problems.append(f"released concept {name} was removed; set deprecated: true instead")
+        elif current[name] != code:
+            problems.append(f"released code for {name} changed ({code} -> {current[name]})")
+    reused = {c for c in released.values()} & {c for n, c in current.items() if n not in released}
+    problems += [f"released code {c} was reused by a new concept" for c in sorted(reused)]
+    return problems
+
+
+def test_append_only_check_detects_removal_renumbering_and_reuse():
+    released = {"fraud_phishing": 3002, "fraud_romance_scam": 3003}
+    assert append_only_violations(released, dict(released, fraud_new=3005)) == []
+    assert any("removed" in p for p in append_only_violations(released, {"fraud_phishing": 3002}))
+    assert any("changed" in p for p in append_only_violations(released, {"fraud_phishing": 3005, "fraud_romance_scam": 3003}))
+    assert any("reused" in p for p in append_only_violations(released, {"fraud_phishing": 3002, "fraud_new": 3003}))
+
+
 def test_codes_are_append_only_against_released_snapshot():
     released = load_yaml(ROOT / "reference" / "released.yml")["codes"]
-    current = registry()
-    for name, code in released.items():
-        assert name in current, f"released concept {name} was removed; set deprecated: true instead"
-        assert current[name] == code, f"released code for {name} changed"
+    assert append_only_violations(released, registry()) == []

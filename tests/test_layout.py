@@ -52,3 +52,27 @@ def test_pyproject_version_matches_data_version():
     text = (ROOT / "pyproject.toml").read_text(encoding="utf-8")
     version = re.search(r'^version\s*=\s*"([^"]+)"', text, re.M).group(1)
     assert version == meta()["data_version"]
+
+
+def _suspicious_chars(text):
+    import unicodedata
+
+    bad = []
+    for i, ch in enumerate(text):
+        cat = unicodedata.category(ch)
+        if ch in "\n\r\t":
+            continue
+        if cat in ("Cf", "Cc", "Cn", "Co", "Cs"):
+            bad.append((i, f"U+{ord(ch):04X}"))
+    return bad
+
+
+def test_suspicious_char_detector_flags_invisible_characters():
+    assert _suspicious_chars("a​b") == [(1, "U+200B")]
+    assert _suspicious_chars("plain 가 text") == []
+
+
+@pytest.mark.parametrize("path", yaml_files(), ids=rel)
+def test_yaml_files_contain_no_raw_invisible_or_unassigned_characters(path):
+    # Write such characters as \uXXXX escapes so reviewers can see them.
+    assert _suspicious_chars(read_text(path)) == [], rel(path)

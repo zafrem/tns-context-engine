@@ -4,7 +4,8 @@ The gold set in `eval/gold/` is a sanity check only. Large corpora live in the
 training repository.
 
 - **Unit:** a label is `(concept, span)`; spans are Unicode code point offsets,
-  half-open `[start, end)`.
+  half-open `[start, end)`. Every label also carries `span_text`, which must equal
+  `text[start:end]` (guards against byte or UTF-16 offsets).
 - **Match:** a predicted detection matches a gold label when the concepts are
   equal and the spans overlap by at least 50% of the shorter span.
 - **Precision / recall / F1** are reported per category x language.

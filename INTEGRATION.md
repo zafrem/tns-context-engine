@@ -19,6 +19,34 @@ implement them.
             '- uncertain band -> LLM stage -> score3 -> DONE
 NLP and LLM stages are optional; without them report `stage_reached: 1`.
 
+## Units and semantics (normative)
+- **Spans** are half-open `[start, end)` offsets in Unicode **code points** of the
+  ORIGINAL text (not UTF-8 bytes, not UTF-16 code units). Engines in JS/Java/Go
+  must convert. Eval labels carry `span_text` so this can be checked.
+- **Normalization rules** apply in file order:
+  - `strip`: delete every listed character.
+  - `map`: single characters are replaced in one simultaneous pass (never
+    sequentially, so `a -> b` followed by `b -> c` inside one map does not chain).
+  - `nfkc`: Unicode NFKC.
+  - `strip_between`: delete runs of `chars` that sit between two characters of
+    the `between` set. `between` is the body of a character-class made only of
+    literal characters and `a-b` ranges (enforced by tests); no escapes, no
+    brackets.
+  - `collapse_repeats`: a run of one character longer than `max_run` is shortened
+    to exactly `max_run`.
+- **Regex dialect** is RE2. `\b`, `\w`, `\d` are ASCII-only in RE2, so patterns
+  for CJK text must not rely on `\b`; use explicit classes or `\p{Han}` etc.
+- **Case:** under `IGNORECASE`, match `hit_keywords` case-folded too.
+- **Ambiguous hit:** a lexicon hit with `ambiguity >= router.ambiguous_min`, or with
+  `requires_context: true`. Such hits are never decisive at stage 1.
+- **Context rules** (`context/<lang>.yml`): a rule fires at most once per
+  detection when any of its `terms` occurs (after normalization) in the same sentence as the matched span; sentence splitting is engine-defined.
+  `adjust` is added to the stage-1 score.
+- **Stopwords** are an aid for tokenization and NLP stages; they are never
+  lexicon terms (enforced by tests) and are not used to suppress matches.
+- **Floor:** `scoring.floor` applies to every category; a category may raise it
+  with `category_overrides.<category>.floor_min_score`.
+
 ## What to implement
 1. **Load** `lexicon/**`, `normalize/<lang>.yml`, `context/<lang>.yml`,
    `stopwords/<lang>.yml`, `scoring/scoring.yml`, `reference/registry.yml`.

@@ -52,12 +52,13 @@
     },
     "router": {
       "type": "object", "additionalProperties": false,
-      "required": ["definite_min", "clean_below", "nlp_confident_hi", "nlp_confident_lo"],
+      "required": ["definite_min", "clean_below", "nlp_confident_hi", "nlp_confident_lo", "ambiguous_min"],
       "properties": {
         "definite_min": {"type": "integer", "minimum": 0, "maximum": 100},
         "clean_below": {"type": "integer", "minimum": 0, "maximum": 100},
         "nlp_confident_hi": {"type": "integer", "minimum": 0, "maximum": 100},
-        "nlp_confident_lo": {"type": "integer", "minimum": 0, "maximum": 100}
+        "nlp_confident_lo": {"type": "integer", "minimum": 0, "maximum": 100},
+        "ambiguous_min": {"description": "A lexicon hit with ambiguity >= this value is an ambiguous hit and is never decisive at stage 1.", "type": "number", "exclusiveMinimum": 0, "maximum": 1}
       }
     }
   }

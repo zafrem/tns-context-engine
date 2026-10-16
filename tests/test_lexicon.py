@@ -6,13 +6,12 @@ import pytest
 
 from helpers import lexicon_entries, lexicon_files, load_yaml, meta, registry, rel
 
-try:  # optional stricter check
+from regexcheck import regex_problems
+
+try:  # authoritative RE2 check when installed
     import re2
 except ImportError:  # pragma: no cover
     re2 = None
-
-FLAG_MAP = {"IGNORECASE": re.IGNORECASE}
-FORBIDDEN_CONSTRUCTS = ("(?=", "(?!", "(?<=", "(?<!", "(?P=", "(?>")
 
 
 @pytest.mark.parametrize("path", lexicon_files(), ids=rel)
@@ -53,20 +52,30 @@ def _regex_entries():
 
 @pytest.mark.parametrize("path,entry", _regex_entries(), ids=lambda v: v["id"] if isinstance(v, dict) else rel(v))
 def test_regex_is_re2_subset_compiles_and_is_gated(path, entry):
-    pattern = entry["term"]
-    stripped = pattern.replace("\\\\", "")  # drop escaped backslashes before looking for constructs
-    for bad in FORBIDDEN_CONSTRUCTS:
-        assert bad not in stripped, f"{entry['id']}: {bad} is not in the RE2 subset"
-    assert not re.search(r"\\[1-9]", stripped), f"{entry['id']}: backreference not allowed"
-    flags = 0
-    for f in entry.get("flags", []):
-        flags |= FLAG_MAP.get(f, 0)
-    re.compile(pattern, flags)
-    if re2 is not None:
-        re2.compile(pattern)
+    problems = regex_problems(entry["term"], entry.get("flags", []), re2)
+    assert not problems, f"{entry['id']}: {problems}"
     assert entry.get("hit_keywords") or entry.get("always_run") is True, (
         f"{entry['id']}: regex needs hit_keywords or always_run: true"
     )
+
+
+def test_regex_check_rejects_non_re2_constructs_even_without_re2():
+    for bad in [r"telegram\Z", r"(t)?(?(1)elegram|x)", r"(a)\1", r"(?=a)b", r"(?<!a)b", r"a++", r"x\G", r"(?>a)"]:
+        assert regex_problems(bad, [], None), bad
+
+
+def test_regex_check_accepts_re2_unicode_classes_and_escaped_plus():
+    for ok in [r"\p{Han}{2,}", r"\p{Hangul}+", r"\pL+", r"\++", r"a\\1"]:
+        assert regex_problems(ok, [], None) == [], ok
+
+
+def test_regex_check_reports_invalid_patterns():
+    assert regex_problems("(unclosed", [], None)
+
+
+def test_re2_is_available_for_authoritative_regex_checking():
+    pytest.importorskip("re2", reason="install .[re2] for the authoritative RE2 compile check")
+    assert regex_problems(r"\p{Hangul}+", ["IGNORECASE"], re2) == []
 
 
 def test_language_coverage_report():

@@ -21,3 +21,4 @@ router:
   clean_below: 20
   nlp_confident_hi: 80
   nlp_confident_lo: 20
+  ambiguous_min: 0.5   # ambiguity >= this makes a hit 'ambiguous' for routing

@@ -289,5 +289,12 @@ All tests are data-only, run with `pytest`, and gate CI:
   policy owner review).
 - Exact default numbers for `rank_weight`, `step`, `cap`, router thresholds;
   initial values to be calibrated on the gold set.
+- Normalization coverage: the foundation seeds only `strip`, `map`, `strip_between`,
+  `nfkc` and `collapse_repeats` rules. Still to add per language: en homoglyph
+  tables; ko jamo composition/decomposition and choseong handling (needs
+  algorithmic rule types, hence a `schema_version` bump; ko deliberately avoids
+  NFKC because it rewrites compatibility jamo); ja hiragana/katakana folding and
+  kanji variants; zh-hans/zh-hant homophone and variant-character tables.
+- `router.ambiguous_min` (default 0.5) defines an "ambiguous" hit for stage routing.
 - Hugging Face organization and repo names (registry entries stay `planned`
   until then).

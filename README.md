@@ -30,3 +30,11 @@ Languages (lowercase BCP 47): `en`, `ko`, `ja`, `zh-hans`, `zh-hant`.
     schemas/     JSON Schema contracts
     eval/        sample schema, gold set, metrics definition
     tests/       data-integrity tests
+
+## Releasing
+
+Concept codes are append-only. When cutting a release, copy the current
+`reference/registry.yml` over `reference/released.yml` (keep `version`), bump
+`data_version` in `reference/meta.yml` and `pyproject.toml`, and tag the commit.
+`test_codes_are_append_only_against_released_snapshot` then guards every later
+change; review any edit to `released.yml` as a breaking change.
