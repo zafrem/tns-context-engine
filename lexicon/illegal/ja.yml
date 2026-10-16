@@ -1,0 +1,4 @@
+namespace: illegal.ja
+lang: ja
+entries:
+  - {id: illegal_ja_0001, concept: 4001, term: 覚せい剤を売ります, type: phrase, rank: 4, ambiguity: 0.1}

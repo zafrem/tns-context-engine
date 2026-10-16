@@ -1,0 +1,4 @@
+namespace: illegal.ko
+lang: ko
+entries:
+  - {id: illegal_ko_0001, concept: 4001, term: 마약 판매, type: phrase, rank: 4, ambiguity: 0.2}

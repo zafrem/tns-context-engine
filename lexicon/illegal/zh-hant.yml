@@ -1,0 +1,4 @@
+namespace: illegal.zh-hant
+lang: zh-hant
+entries:
+  - {id: illegal_zh-hant_0001, concept: 4001, term: 販售毒品, type: phrase, rank: 4, ambiguity: 0.2}

@@ -1,0 +1,4 @@
+namespace: defamation.ja
+lang: ja
+entries:
+  - {id: defamation_ja_0001, concept: 1002, term: 詐欺師, type: literal, rank: 2, ambiguity: 0.6, requires_context: true}

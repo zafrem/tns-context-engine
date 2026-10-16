@@ -1,0 +1,4 @@
+namespace: illegal.zh-hans
+lang: zh-hans
+entries:
+  - {id: illegal_zh-hans_0001, concept: 4001, term: 出售毒品, type: phrase, rank: 4, ambiguity: 0.2}

@@ -1,0 +1,4 @@
+namespace: illegal.en
+lang: en
+entries:
+  - {id: illegal_en_0001, concept: 4001, term: buy cocaine, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}

@@ -1,0 +1,4 @@
+namespace: defamation.en
+lang: en
+entries:
+  - {id: defamation_en_0001, concept: 1002, term: fraudster, type: literal, rank: 2, ambiguity: 0.6, requires_context: true, flags: [IGNORECASE, WORD_BOUNDARY]}

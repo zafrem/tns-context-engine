@@ -1,0 +1,4 @@
+namespace: hate.zh-hant
+lang: zh-hant
+entries:
+  - {id: hate_zh-hant_0001, concept: 2005, term: 滾回你的國家, type: phrase, rank: 4, ambiguity: 0.3}

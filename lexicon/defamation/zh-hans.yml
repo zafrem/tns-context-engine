@@ -1,0 +1,4 @@
+namespace: defamation.zh-hans
+lang: zh-hans
+entries:
+  - {id: defamation_zh-hans_0001, concept: 1002, term: 骗子, type: literal, rank: 2, ambiguity: 0.6, requires_context: true}

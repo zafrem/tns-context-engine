@@ -1,0 +1,4 @@
+namespace: hate.en
+lang: en
+entries:
+  - {id: hate_en_0001, concept: 2005, term: go back to your country, type: phrase, rank: 4, ambiguity: 0.3, flags: [IGNORECASE]}

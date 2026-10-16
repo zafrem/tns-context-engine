@@ -1,0 +1,4 @@
+namespace: fraud.ja
+lang: ja
+entries:
+  - {id: fraud_ja_0001, concept: 3001, term: 元本保証, type: literal, rank: 4, ambiguity: 0.2}

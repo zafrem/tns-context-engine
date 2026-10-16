@@ -1,0 +1,4 @@
+namespace: fraud.zh-hans
+lang: zh-hans
+entries:
+  - {id: fraud_zh-hans_0001, concept: 3001, term: 稳赚不赔, type: literal, rank: 4, ambiguity: 0.2}

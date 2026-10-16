@@ -1,0 +1,4 @@
+namespace: fraud.en
+lang: en
+entries:
+  - {id: fraud_en_0001, concept: 3001, term: guaranteed returns, type: phrase, rank: 4, ambiguity: 0.3, flags: [IGNORECASE]}

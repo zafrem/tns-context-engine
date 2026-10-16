@@ -1,0 +1,4 @@
+namespace: fraud.zh-hant
+lang: zh-hant
+entries:
+  - {id: fraud_zh-hant_0001, concept: 3001, term: 穩賺不賠, type: literal, rank: 4, ambiguity: 0.2}

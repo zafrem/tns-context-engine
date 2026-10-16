@@ -1,0 +1,4 @@
+namespace: defamation.ko
+lang: ko
+entries:
+  - {id: defamation_ko_0001, concept: 1002, term: 사기꾼, type: literal, rank: 2, ambiguity: 0.6, requires_context: true}

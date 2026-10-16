@@ -1,0 +1,4 @@
+namespace: hate.ko
+lang: ko
+entries:
+  - {id: hate_ko_0001, concept: 2005, term: 너희 나라로 돌아가, type: phrase, rank: 4, ambiguity: 0.3}

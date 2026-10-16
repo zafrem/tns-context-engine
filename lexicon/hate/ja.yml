@@ -1,0 +1,4 @@
+namespace: hate.ja
+lang: ja
+entries:
+  - {id: hate_ja_0001, concept: 2005, term: 国へ帰れ, type: phrase, rank: 4, ambiguity: 0.3}

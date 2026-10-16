@@ -1,0 +1,11 @@
+namespace: patterns.contact_redirect
+lang: und
+entries:
+  - id: patterns_contact_redirect_0001
+    concept: 9002
+    term: '\b(whatsapp|telegram|kakaotalk)\b[^\n]{0,20}[0-9]{6,}'
+    type: regex
+    rank: 2
+    ambiguity: 0.5
+    flags: [IGNORECASE]
+    hit_keywords: [whatsapp, telegram, kakaotalk]

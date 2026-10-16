@@ -9,3 +9,7 @@ GLOBS = [
     ("reference/illegal.yml", "concepts"),
     ("reference/cross_cutting.yml", "concepts"),
 ]
+
+GLOBS += [
+    ("lexicon/*/*.yml", "lexicon"),
+]

@@ -1,0 +1,4 @@
+namespace: fraud.ko
+lang: ko
+entries:
+  - {id: fraud_ko_0001, concept: 3001, term: 원금보장, type: literal, rank: 4, ambiguity: 0.2}
