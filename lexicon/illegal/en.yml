@@ -2,3 +2,41 @@ namespace: illegal.en
 lang: en
 entries:
   - {id: illegal_en_0001, concept: 4001, term: buy cocaine, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0002, concept: 4001, term: buy weed online, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0003, concept: 4001, term: sell heroin, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0004, concept: 4001, term: selling mdma, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0005, concept: 4001, term: buy fentanyl, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0006, concept: 4001, term: cheap meth for sale, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0007, concept: 4001, term: darknet drug market, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0008, concept: 4001, term: buy xanax without prescription, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0009, concept: 4001, term: weed delivery, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: illegal_en_0010, concept: 4002, term: buy a gun without a background check, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0011, concept: 4002, term: untraceable firearm for sale, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0012, concept: 4002, term: ghost gun for sale, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0013, concept: 4002, term: illegal firearms for sale, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0014, concept: 4002, term: buy a silencer, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0015, concept: 4002, term: full auto conversion kit, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0016, concept: 4002, term: buy explosives, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0017, concept: 4003, term: illegal betting site, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0018, concept: 4003, term: private gambling site, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0019, concept: 4003, term: unlicensed casino, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0020, concept: 4003, term: baccarat site, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0021, concept: 4003, term: online casino bonus, type: phrase, rank: 2, ambiguity: 0.6, requires_context: true, flags: [IGNORECASE]}
+  - {id: illegal_en_0022, concept: 4003, term: sports betting agent, type: phrase, rank: 3, ambiguity: 0.45, flags: [IGNORECASE]}
+  - {id: illegal_en_0023, concept: 4003, term: casino site recommendation, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0024, concept: 4005, term: replica designer bags, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0025, concept: 4005, term: counterfeit money for sale, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0026, concept: 4005, term: fake passport for sale, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0027, concept: 4005, term: fake id for sale, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0028, concept: 4005, term: buy fake diploma, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0029, concept: 4005, term: super fake bags, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0030, concept: 4005, term: forged documents for sale, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: illegal_en_0031, concept: 4005, term: knockoff watches, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: illegal_en_0032, concept: 4006, term: buy stolen credit cards, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: illegal_en_0033, concept: 4006, term: selling stolen accounts, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: illegal_en_0034, concept: 4006, term: leaked database for sale, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: illegal_en_0035, concept: 4006, term: fullz for sale, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: illegal_en_0036, concept: 4006, term: sell hacked accounts, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: illegal_en_0037, concept: 4006, term: buy social security numbers, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: illegal_en_0038, concept: 4006, term: cvv shop, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: illegal_en_0039, concept: 4006, term: dumps with pin, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}

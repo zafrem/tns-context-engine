@@ -1,4 +1,35 @@
 namespace: illegal.ja
 lang: ja
 entries:
-  - {id: illegal_ja_0001, concept: 4001, term: 覚せい剤を売ります, type: phrase, rank: 4, ambiguity: 0.1}
+  - {id: illegal_ja_0001, concept: 4001, term: 覚せい剤を売ります, type: literal, rank: 4, ambiguity: 0.1}
+  - {id: illegal_ja_0002, concept: 4001, term: 大麻を売ります, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ja_0003, concept: 4001, term: 覚せい剤購入, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ja_0004, concept: 4001, term: コカイン販売, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ja_0005, concept: 4001, term: ヘロイン販売, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ja_0006, concept: 4001, term: 薬物を譲ります, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ja_0007, concept: 4001, term: 手押し大麻, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ja_0008, concept: 4002, term: 拳銃を売ります, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ja_0009, concept: 4002, term: 銃を譲ります, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ja_0010, concept: 4002, term: 実弾販売, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ja_0011, concept: 4002, term: 改造銃, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ja_0012, concept: 4002, term: 拳銃購入, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ja_0013, concept: 4002, term: 爆発物の作り方, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: illegal_ja_0014, concept: 4003, term: 違法カジノ, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ja_0015, concept: 4003, term: オンラインカジノ, type: literal, rank: 3, ambiguity: 0.5}
+  - {id: illegal_ja_0016, concept: 4003, term: 闇スロット, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ja_0017, concept: 4003, term: 裏カジノ, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ja_0018, concept: 4003, term: 賭博サイト, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ja_0019, concept: 4005, term: 偽ブランド品, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ja_0020, concept: 4005, term: スーパーコピー, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ja_0021, concept: 4005, term: 偽造紙幣, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ja_0022, concept: 4005, term: 偽造パスポート, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ja_0023, concept: 4005, term: 偽造免許証, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ja_0024, concept: 4005, term: コピー品販売, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ja_0025, concept: 4005, term: レプリカ時計, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ja_0026, concept: 4006, term: 口座売買, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ja_0027, concept: 4006, term: 盗難カード情報, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ja_0028, concept: 4006, term: 個人情報販売, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ja_0029, concept: 4006, term: アカウント売ります, type: literal, rank: 3, ambiguity: 0.45, requires_context: true}
+  - {id: illegal_ja_0030, concept: 4006, term: 名簿販売, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ja_0031, concept: 4006, term: クレジットカード情報販売, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ja_0032, concept: 4006, term: 他人名義の口座, type: literal, rank: 4, ambiguity: 0.25}

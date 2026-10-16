@@ -4,3 +4,63 @@
 {"text": "这个项目稳赚不赔，快来投资", "lang": "zh-hans", "labels": [{"concept": 3001, "span": [4, 8], "span_text": "稳赚不赔"}], "source": "synthetic", "license": "CC0-1.0"}
 {"text": "這個項目穩賺不賠，快來投資", "lang": "zh-hant", "labels": [{"concept": 3001, "span": [4, 8], "span_text": "穩賺不賠"}], "source": "synthetic", "license": "CC0-1.0"}
 {"text": "Thanks for the update, see you tomorrow.", "lang": "en", "labels": [], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: risk free investment. Reply soon.", "lang": "en", "labels": [{"concept": 3001, "span": [18, 38], "span_text": "risk free investment"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: verify your account. Reply soon.", "lang": "en", "labels": [{"concept": 3002, "span": [18, 37], "span_text": "verify your account"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: send me gift cards. Reply soon.", "lang": "en", "labels": [{"concept": 3003, "span": [18, 36], "span_text": "send me gift cards"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: this is the irs. Reply soon.", "lang": "en", "labels": [{"concept": 3004, "span": [18, 33], "span_text": "this is the irs"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: pre approved loan. Reply soon.", "lang": "en", "labels": [{"concept": 3005, "span": [18, 35], "span_text": "pre approved loan"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: work from home earn daily. Reply soon.", "lang": "en", "labels": [{"concept": 3006, "span": [18, 43], "span_text": "work from home earn daily"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 수익보장 바로 연락하세요", "lang": "ko", "labels": [{"concept": 3001, "span": [8, 12], "span_text": "수익보장"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 계정이 정지됩니다 바로 연락하세요", "lang": "ko", "labels": [{"concept": 3002, "span": [8, 17], "span_text": "계정이 정지됩니다"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 해외 파병 군인 바로 연락하세요", "lang": "ko", "labels": [{"concept": 3003, "span": [8, 16], "span_text": "해외 파병 군인"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 검찰청입니다 바로 연락하세요", "lang": "ko", "labels": [{"concept": 3004, "span": [8, 14], "span_text": "검찰청입니다"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 무담보 대출 바로 연락하세요", "lang": "ko", "labels": [{"concept": 3005, "span": [8, 14], "span_text": "무담보 대출"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 재택 부업 바로 연락하세요", "lang": "ko", "labels": [{"concept": 3006, "span": [8, 13], "span_text": "재택 부업"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：絶対儲かる。すぐ連絡を", "lang": "ja", "labels": [{"concept": 3001, "span": [8, 13], "span_text": "絶対儲かる"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：アカウントが停止されます。すぐ連絡を", "lang": "ja", "labels": [{"concept": 3002, "span": [8, 20], "span_text": "アカウントが停止されます"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：ギフトカードを送って。すぐ連絡を", "lang": "ja", "labels": [{"concept": 3003, "span": [8, 18], "span_text": "ギフトカードを送って"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：警察官を名乗。すぐ連絡を", "lang": "ja", "labels": [{"concept": 3004, "span": [8, 14], "span_text": "警察官を名乗"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：無担保融資。すぐ連絡を", "lang": "ja", "labels": [{"concept": 3005, "span": [8, 13], "span_text": "無担保融資"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：在宅ワークで高収入。すぐ連絡を", "lang": "ja", "labels": [{"concept": 3006, "span": [8, 17], "span_text": "在宅ワークで高収入"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：保本保息，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 3001, "span": [5, 9], "span_text": "保本保息"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：账号将被冻结，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 3002, "span": [5, 11], "span_text": "账号将被冻结"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：杀猪盘，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 3003, "span": [5, 8], "span_text": "杀猪盘"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：我是公安局的，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 3004, "span": [5, 11], "span_text": "我是公安局的"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：无抵押贷款，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 3005, "span": [5, 10], "span_text": "无抵押贷款"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：兼职刷单，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 3006, "span": [5, 9], "span_text": "兼职刷单"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：保本保息，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 3001, "span": [5, 9], "span_text": "保本保息"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：帳號將被凍結，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 3002, "span": [5, 11], "span_text": "帳號將被凍結"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：殺豬盤，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 3003, "span": [5, 8], "span_text": "殺豬盤"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：我是公安局的，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 3004, "span": [5, 11], "span_text": "我是公安局的"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：無抵押貸款，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 3005, "span": [5, 10], "span_text": "無抵押貸款"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：兼職刷單，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 3006, "span": [5, 9], "span_text": "兼職刷單"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: buy weed online. Reply soon.", "lang": "en", "labels": [{"concept": 4001, "span": [18, 33], "span_text": "buy weed online"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: buy a gun without a background check. Reply soon.", "lang": "en", "labels": [{"concept": 4002, "span": [18, 54], "span_text": "buy a gun without a background check"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: illegal betting site. Reply soon.", "lang": "en", "labels": [{"concept": 4003, "span": [18, 38], "span_text": "illegal betting site"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: replica designer bags. Reply soon.", "lang": "en", "labels": [{"concept": 4005, "span": [18, 39], "span_text": "replica designer bags"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: buy stolen credit cards. Reply soon.", "lang": "en", "labels": [{"concept": 4006, "span": [18, 41], "span_text": "buy stolen credit cards"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 대마 판매 바로 연락하세요", "lang": "ko", "labels": [{"concept": 4001, "span": [8, 13], "span_text": "대마 판매"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 총기 판매 바로 연락하세요", "lang": "ko", "labels": [{"concept": 4002, "span": [8, 13], "span_text": "총기 판매"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 불법 도박 바로 연락하세요", "lang": "ko", "labels": [{"concept": 4003, "span": [8, 13], "span_text": "불법 도박"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 짝퉁 판매 바로 연락하세요", "lang": "ko", "labels": [{"concept": 4005, "span": [8, 13], "span_text": "짝퉁 판매"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 도용 계정 판매 바로 연락하세요", "lang": "ko", "labels": [{"concept": 4006, "span": [8, 16], "span_text": "도용 계정 판매"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：大麻を売ります。すぐ連絡を", "lang": "ja", "labels": [{"concept": 4001, "span": [8, 15], "span_text": "大麻を売ります"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：拳銃を売ります。すぐ連絡を", "lang": "ja", "labels": [{"concept": 4002, "span": [8, 15], "span_text": "拳銃を売ります"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：違法カジノ。すぐ連絡を", "lang": "ja", "labels": [{"concept": 4003, "span": [8, 13], "span_text": "違法カジノ"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：偽ブランド品。すぐ連絡を", "lang": "ja", "labels": [{"concept": 4005, "span": [8, 14], "span_text": "偽ブランド品"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：口座売買。すぐ連絡を", "lang": "ja", "labels": [{"concept": 4006, "span": [8, 12], "span_text": "口座売買"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：贩卖大麻，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 4001, "span": [5, 9], "span_text": "贩卖大麻"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：出售枪支，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 4002, "span": [5, 9], "span_text": "出售枪支"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：赌博网站，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 4003, "span": [5, 9], "span_text": "赌博网站"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：假币出售，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 4005, "span": [5, 9], "span_text": "假币出售"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：出售公民信息，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 4006, "span": [5, 11], "span_text": "出售公民信息"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：販賣大麻，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 4001, "span": [5, 9], "span_text": "販賣大麻"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：出售槍枝，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 4002, "span": [5, 9], "span_text": "出售槍枝"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：賭博網站，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 4003, "span": [5, 9], "span_text": "賭博網站"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：假幣出售，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 4005, "span": [5, 9], "span_text": "假幣出售"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：出售公民資訊，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 4006, "span": [5, 11], "span_text": "出售公民資訊"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "The weather is nice and the meeting moved to Friday.", "lang": "en", "labels": [], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "오늘 날씨가 좋아서 회의는 금요일로 옮겼습니다.", "lang": "ko", "labels": [], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "今日は天気が良いので会議は金曜日に移しました。", "lang": "ja", "labels": [], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "今天天气很好，会议改到星期五了。", "lang": "zh-hans", "labels": [], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "今天天氣很好，會議改到星期五了。", "lang": "zh-hant", "labels": [], "source": "synthetic", "license": "CC0-1.0"}

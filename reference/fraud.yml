@@ -5,3 +5,5 @@ concepts:
   - {code: 3002, name: fraud_phishing, description: "Credential or payment harvesting lures.", rank_default: 4}
   - {code: 3003, name: fraud_romance_scam, description: "Romance-based financial manipulation.", rank_default: 3}
   - {code: 3004, name: fraud_impersonation, description: "Impersonating an institution or person to obtain money or data.", rank_default: 3}
+  - {code: 3005, name: fraud_loan_scam, description: "Advance-fee or no-collateral loan offers that demand upfront payment.", rank_default: 3}
+  - {code: 3006, name: fraud_job_scam, description: "Fake job or task offers that demand fees, deposits or advance payments.", rank_default: 3}

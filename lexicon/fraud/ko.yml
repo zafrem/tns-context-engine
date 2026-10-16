@@ -2,3 +2,44 @@ namespace: fraud.ko
 lang: ko
 entries:
   - {id: fraud_ko_0001, concept: 3001, term: 원금보장, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: fraud_ko_0002, concept: 3001, term: 수익보장, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ko_0003, concept: 3001, term: 확정수익, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ko_0004, concept: 3001, term: 고수익 보장, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ko_0005, concept: 3001, term: 무위험 투자, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ko_0006, concept: 3001, term: 원금 손실 없음, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ko_0007, concept: 3001, term: 일 수익 보장, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ko_0008, concept: 3001, term: 리딩방 가입, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ko_0009, concept: 3001, term: 단기간 고수익, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0010, concept: 3001, term: 상장 직전 코인, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0011, concept: 3002, term: 계정이 정지됩니다, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0012, concept: 3002, term: 본인 인증 하세요, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0013, concept: 3002, term: 비밀번호를 입력하세요, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0014, concept: 3002, term: 링크를 클릭하여 인증, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0015, concept: 3002, term: 인증번호를 알려주세요, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0016, concept: 3002, term: 계좌가 동결되었습니다, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0017, concept: 3002, term: 택배 주소 확인 링크, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0018, concept: 3003, term: 해외 파병 군인, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0019, concept: 3003, term: 상품권 보내주세요, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0020, concept: 3003, term: 사랑해서 송금해줘, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0021, concept: 3003, term: 해외에 발이 묶였, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0022, concept: 3003, term: 급하게 돈이 필요해요, type: phrase, rank: 2, ambiguity: 0.65, requires_context: true}
+  - {id: fraud_ko_0023, concept: 3003, term: 세관 비용 보내주세요, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0024, concept: 3004, term: 검찰청입니다, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ko_0025, concept: 3004, term: 금융감독원 직원, type: phrase, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ko_0026, concept: 3004, term: 수사에 협조, type: phrase, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ko_0027, concept: 3004, term: 안전계좌로 이체, type: phrase, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ko_0028, concept: 3004, term: 계좌가 범죄에 연루, type: phrase, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ko_0029, concept: 3004, term: 엄마 폰 액정 깨져서, type: phrase, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ko_0030, concept: 3005, term: 무담보 대출, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0031, concept: 3005, term: 신용불량자 대출, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0032, concept: 3005, term: 선입금 대출, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0033, concept: 3005, term: 대출 수수료 먼저, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0034, concept: 3005, term: 저금리 대환대출, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0035, concept: 3005, term: 당일 대출 가능, type: phrase, rank: 2, ambiguity: 0.55}
+  - {id: fraud_ko_0036, concept: 3005, term: 보증보험료 입금, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ko_0037, concept: 3006, term: 재택 부업, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0038, concept: 3006, term: 알바 일당 지급, type: phrase, rank: 3, ambiguity: 0.5}
+  - {id: fraud_ko_0039, concept: 3006, term: 좋아요 누르기 알바, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0040, concept: 3006, term: 등록비 입금, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0041, concept: 3006, term: 교육비 선입금, type: phrase, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ko_0042, concept: 3006, term: 하루 수익 보장 부업, type: phrase, rank: 3, ambiguity: 0.4}

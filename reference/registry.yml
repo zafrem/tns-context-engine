@@ -13,9 +13,13 @@ codes:
   fraud_phishing: 3002
   fraud_romance_scam: 3003
   fraud_impersonation: 3004
+  fraud_loan_scam: 3005
+  fraud_job_scam: 3006
   illegal_drugs: 4001
   illegal_weapons: 4002
   illegal_illegal_gambling: 4003
   illegal_csam_solicitation: 4004
+  illegal_counterfeit: 4005
+  illegal_data_trade: 4006
   cross_cutting_obfuscation_marker: 9001
   cross_cutting_contact_redirect: 9002

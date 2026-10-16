@@ -2,3 +2,40 @@ namespace: illegal.ko
 lang: ko
 entries:
   - {id: illegal_ko_0001, concept: 4001, term: 마약 판매, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0002, concept: 4001, term: 대마 판매, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0003, concept: 4001, term: 필로폰 판매, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0004, concept: 4001, term: 엘에스디 구매, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0005, concept: 4001, term: 히로뽕 팝니다, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0006, concept: 4001, term: 마약 구매, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0007, concept: 4001, term: 텔레그램 던지기, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0008, concept: 4001, term: 떨 판매, type: phrase, rank: 4, ambiguity: 0.3}
+  - {id: illegal_ko_0009, concept: 4002, term: 총기 판매, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0010, concept: 4002, term: 권총 구매, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0011, concept: 4002, term: 실탄 판매, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0012, concept: 4002, term: 사제총 제작, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0013, concept: 4002, term: 폭발물 제작, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0014, concept: 4002, term: 총 팝니다, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_ko_0015, concept: 4003, term: 불법 도박, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0016, concept: 4003, term: 토토사이트, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0017, concept: 4003, term: 바카라 사이트, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0018, concept: 4003, term: 먹튀 검증, type: phrase, rank: 2, ambiguity: 0.55}
+  - {id: illegal_ko_0019, concept: 4003, term: 카지노 추천 사이트, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0020, concept: 4003, term: 사설 토토, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0021, concept: 4003, term: 도박 사이트 추천, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0022, concept: 4003, term: 슬롯 사이트, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0023, concept: 4003, term: 스포츠 배팅 총판, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0024, concept: 4005, term: 짝퉁 판매, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0025, concept: 4005, term: 이미테이션 가방, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0026, concept: 4005, term: 위조 지폐, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0027, concept: 4005, term: 위조 신분증, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0028, concept: 4005, term: 가짜 여권, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0029, concept: 4005, term: 레플리카 시계, type: phrase, rank: 3, ambiguity: 0.35}
+  - {id: illegal_ko_0030, concept: 4005, term: 짝퉁, type: literal, rank: 3, ambiguity: 0.45}
+  - {id: illegal_ko_0031, concept: 4006, term: 도용 계정 판매, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ko_0032, concept: 4006, term: 개인정보 판매, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ko_0033, concept: 4006, term: 해킹 계정, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ko_0034, concept: 4006, term: 대포통장 판매, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ko_0035, concept: 4006, term: 대포폰 개통, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ko_0036, concept: 4006, term: 유출 디비 판매, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ko_0037, concept: 4006, term: 카드 정보 판매, type: phrase, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ko_0038, concept: 4006, term: 명의 대여, type: phrase, rank: 3, ambiguity: 0.45}

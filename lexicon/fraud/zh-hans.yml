@@ -2,3 +2,47 @@ namespace: fraud.zh-hans
 lang: zh-hans
 entries:
   - {id: fraud_zh-hans_0001, concept: 3001, term: 稳赚不赔, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: fraud_zh-hans_0002, concept: 3001, term: 保本保息, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_zh-hans_0003, concept: 3001, term: 零风险高回报, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_zh-hans_0004, concept: 3001, term: 稳赚不亏, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_zh-hans_0005, concept: 3001, term: 保证收益, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_zh-hans_0006, concept: 3001, term: 躺赚, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_zh-hans_0007, concept: 3001, term: 内幕消息, type: literal, rank: 2, ambiguity: 0.6, requires_context: true}
+  - {id: fraud_zh-hans_0008, concept: 3001, term: 翻倍回报, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_zh-hans_0009, concept: 3001, term: 保证盈利, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_zh-hans_0010, concept: 3001, term: 高额返利, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_zh-hans_0011, concept: 3001, term: 带单老师, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_zh-hans_0012, concept: 3002, term: 账号将被冻结, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0013, concept: 3002, term: 请点击链接验证, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0014, concept: 3002, term: 输入验证码, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0015, concept: 3002, term: 您的账户异常, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0016, concept: 3002, term: 银行卡升级, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0017, concept: 3002, term: 密码已过期, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0018, concept: 3002, term: 点击领取, type: literal, rank: 2, ambiguity: 0.6, requires_context: true}
+  - {id: fraud_zh-hans_0019, concept: 3003, term: 杀猪盘, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_zh-hans_0020, concept: 3003, term: 我在国外需要汇款, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_zh-hans_0021, concept: 3003, term: 我是军人驻外, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_zh-hans_0022, concept: 3003, term: 礼品卡充值, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_zh-hans_0023, concept: 3003, term: 给我转账, type: literal, rank: 2, ambiguity: 0.65, requires_context: true}
+  - {id: fraud_zh-hans_0024, concept: 3004, term: 我是公安局的, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_zh-hans_0025, concept: 3004, term: 涉嫌洗钱, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_zh-hans_0026, concept: 3004, term: 安全账户, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_zh-hans_0027, concept: 3004, term: 配合调查转账, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_zh-hans_0028, concept: 3004, term: 冒充客服, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_zh-hans_0029, concept: 3004, term: 退款需要提供验证码, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_zh-hans_0030, concept: 3004, term: 快递丢失理赔, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_zh-hans_0031, concept: 3005, term: 无抵押贷款, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0032, concept: 3005, term: 免征信贷款, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0033, concept: 3005, term: 无需审核放款, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0034, concept: 3005, term: 先交手续费, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0035, concept: 3005, term: 保证金放款, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0036, concept: 3005, term: 当天放款, type: literal, rank: 2, ambiguity: 0.5}
+  - {id: fraud_zh-hans_0037, concept: 3005, term: 黑户也能贷, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0038, concept: 3005, term: 解冻费, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_zh-hans_0039, concept: 3006, term: 兼职刷单, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_zh-hans_0040, concept: 3006, term: 日结工资, type: literal, rank: 2, ambiguity: 0.55}
+  - {id: fraud_zh-hans_0041, concept: 3006, term: 在家兼职高薪, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_zh-hans_0042, concept: 3006, term: 点赞赚钱, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_zh-hans_0043, concept: 3006, term: 先交押金, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_zh-hans_0044, concept: 3006, term: 垫付返佣, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_zh-hans_0045, concept: 3006, term: 刷单返利, type: literal, rank: 3, ambiguity: 0.4}

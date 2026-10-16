@@ -1,4 +1,45 @@
 namespace: illegal.zh-hans
 lang: zh-hans
 entries:
-  - {id: illegal_zh-hans_0001, concept: 4001, term: 出售毒品, type: phrase, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0001, concept: 4001, term: 出售毒品, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0002, concept: 4001, term: 贩卖大麻, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0003, concept: 4001, term: 冰毒出售, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0004, concept: 4001, term: 购买海洛因, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0005, concept: 4001, term: 麻古出售, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0006, concept: 4001, term: 售卖可卡因, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0007, concept: 4001, term: 氯胺酮出售, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0008, concept: 4002, term: 出售枪支, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0009, concept: 4002, term: 出售手枪, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0010, concept: 4002, term: 购买枪支, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0011, concept: 4002, term: 买卖子弹, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0012, concept: 4002, term: 自制枪支, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0013, concept: 4002, term: 制作炸药, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: illegal_zh-hans_0014, concept: 4002, term: 仿真枪出售, type: literal, rank: 3, ambiguity: 0.5}
+  - {id: illegal_zh-hans_0015, concept: 4003, term: 赌博网站, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0016, concept: 4003, term: 网络赌场, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0017, concept: 4003, term: 百家乐, type: literal, rank: 3, ambiguity: 0.5}
+  - {id: illegal_zh-hans_0018, concept: 4003, term: 非法博彩, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0019, concept: 4003, term: 六合彩, type: literal, rank: 3, ambiguity: 0.5}
+  - {id: illegal_zh-hans_0020, concept: 4003, term: 澳门赌场代理, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0021, concept: 4003, term: 时时彩, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0022, concept: 4003, term: 博彩平台, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0023, concept: 4003, term: 赌球, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0024, concept: 4003, term: 网上赌博, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0025, concept: 4005, term: 假币出售, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0026, concept: 4005, term: 假钞, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0027, concept: 4005, term: 高仿包, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0028, concept: 4005, term: 假身份证, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0029, concept: 4005, term: 伪造证件, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0030, concept: 4005, term: 办假证, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0031, concept: 4005, term: 假文凭, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0032, concept: 4005, term: 仿冒名牌, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0033, concept: 4005, term: 高仿手表, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0034, concept: 4005, term: 一比一复刻, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: illegal_zh-hans_0035, concept: 4006, term: 出售公民信息, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_zh-hans_0036, concept: 4006, term: 买卖个人信息, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_zh-hans_0037, concept: 4006, term: 银行卡出租, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_zh-hans_0038, concept: 4006, term: 出售四件套, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_zh-hans_0039, concept: 4006, term: 出售盗号, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_zh-hans_0040, concept: 4006, term: 数据库出售, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_zh-hans_0041, concept: 4006, term: 买卖账号, type: literal, rank: 3, ambiguity: 0.5}
+  - {id: illegal_zh-hans_0042, concept: 4006, term: 公民信息查询, type: literal, rank: 4, ambiguity: 0.25}

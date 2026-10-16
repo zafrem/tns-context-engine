@@ -2,3 +2,49 @@ namespace: fraud.en
 lang: en
 entries:
   - {id: fraud_en_0001, concept: 3001, term: guaranteed returns, type: phrase, rank: 4, ambiguity: 0.3, flags: [IGNORECASE]}
+  - {id: fraud_en_0002, concept: 3001, term: risk free investment, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: fraud_en_0003, concept: 3001, term: guaranteed profit, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: fraud_en_0004, concept: 3001, term: double your money, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: fraud_en_0005, concept: 3001, term: principal guaranteed, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: fraud_en_0006, concept: 3001, term: guaranteed daily profit, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: fraud_en_0007, concept: 3001, term: no risk high return, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: fraud_en_0008, concept: 3001, term: get rich quick, type: phrase, rank: 3, ambiguity: 0.45, flags: [IGNORECASE]}
+  - {id: fraud_en_0009, concept: 3001, term: zero risk profit, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: fraud_en_0010, concept: 3001, term: guaranteed monthly income, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
+  - {id: fraud_en_0011, concept: 3002, term: verify your account, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0012, concept: 3002, term: confirm your password, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0013, concept: 3002, term: your account will be suspended, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0014, concept: 3002, term: your account has been locked, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0015, concept: 3002, term: click here to verify, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0016, concept: 3002, term: update your payment information, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0017, concept: 3002, term: enter your otp, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0018, concept: 3002, term: send me the verification code, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0019, concept: 3002, term: security code, type: phrase, rank: 2, ambiguity: 0.7, requires_context: true, flags: [IGNORECASE]}
+  - {id: fraud_en_0020, concept: 3003, term: send me gift cards, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: fraud_en_0021, concept: 3003, term: wire me money, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: fraud_en_0022, concept: 3003, term: i am stuck overseas, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0023, concept: 3003, term: my late husband left me, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: fraud_en_0024, concept: 3003, term: i am a deployed soldier, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: fraud_en_0025, concept: 3003, term: send me money, type: phrase, rank: 2, ambiguity: 0.65, requires_context: true, flags: [IGNORECASE]}
+  - {id: fraud_en_0026, concept: 3003, term: i love you please send money, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: fraud_en_0027, concept: 3004, term: this is the irs, type: phrase, rank: 4, ambiguity: 0.3, flags: [IGNORECASE]}
+  - {id: fraud_en_0028, concept: 3004, term: i am calling from your bank, type: phrase, rank: 4, ambiguity: 0.3, flags: [IGNORECASE]}
+  - {id: fraud_en_0029, concept: 3004, term: your package is held at customs, type: phrase, rank: 4, ambiguity: 0.3, flags: [IGNORECASE]}
+  - {id: fraud_en_0030, concept: 3004, term: pay or face arrest, type: phrase, rank: 4, ambiguity: 0.3, flags: [IGNORECASE]}
+  - {id: fraud_en_0031, concept: 3004, term: i am from tech support, type: phrase, rank: 4, ambiguity: 0.3, flags: [IGNORECASE]}
+  - {id: fraud_en_0032, concept: 3004, term: your social security number has been suspended, type: phrase, rank: 4, ambiguity: 0.3, flags: [IGNORECASE]}
+  - {id: fraud_en_0033, concept: 3004, term: warrant for your arrest, type: phrase, rank: 4, ambiguity: 0.3, flags: [IGNORECASE]}
+  - {id: fraud_en_0034, concept: 3005, term: pre approved loan, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0035, concept: 3005, term: no credit check loan, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0036, concept: 3005, term: loan without collateral, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0037, concept: 3005, term: processing fee before loan, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0038, concept: 3005, term: guaranteed loan approval, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0039, concept: 3005, term: pay the insurance fee to release the loan, type: phrase, rank: 3, ambiguity: 0.35, flags: [IGNORECASE]}
+  - {id: fraud_en_0040, concept: 3005, term: fast cash loan, type: phrase, rank: 2, ambiguity: 0.55, flags: [IGNORECASE]}
+  - {id: fraud_en_0041, concept: 3006, term: work from home earn daily, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: fraud_en_0042, concept: 3006, term: pay a registration fee to start work, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: fraud_en_0043, concept: 3006, term: easy money from home, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: fraud_en_0044, concept: 3006, term: earn daily by liking videos, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: fraud_en_0045, concept: 3006, term: training fee before hiring, type: phrase, rank: 3, ambiguity: 0.4, flags: [IGNORECASE]}
+  - {id: fraud_en_0046, concept: 3006, term: task commission deposit, type: phrase, rank: 3, ambiguity: 0.3, flags: [IGNORECASE]}
+  - {id: fraud_en_0047, concept: 3006, term: make money online, type: phrase, rank: 2, ambiguity: 0.6, requires_context: true, flags: [IGNORECASE]}

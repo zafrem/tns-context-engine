@@ -5,3 +5,5 @@ concepts:
   - {code: 4002, name: illegal_weapons, description: "Offers to sell or buy illegal weapons.", rank_default: 4}
   - {code: 4003, name: illegal_illegal_gambling, description: "Promotion of illegal gambling.", rank_default: 3}
   - {code: 4004, name: illegal_csam_solicitation, description: "Solicitation of child sexual abuse material.", rank_default: 5}
+  - {code: 4005, name: illegal_counterfeit, description: "Sale of counterfeit goods, currency or forged documents.", rank_default: 3}
+  - {code: 4006, name: illegal_data_trade, description: "Trade in stolen accounts, card data, personal data or rented bank accounts.", rank_default: 4}

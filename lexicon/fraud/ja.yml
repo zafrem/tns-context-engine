@@ -2,3 +2,44 @@ namespace: fraud.ja
 lang: ja
 entries:
   - {id: fraud_ja_0001, concept: 3001, term: 元本保証, type: literal, rank: 4, ambiguity: 0.2}
+  - {id: fraud_ja_0002, concept: 3001, term: 絶対儲かる, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ja_0003, concept: 3001, term: 必ず儲かる, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ja_0004, concept: 3001, term: 確実に儲かる, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ja_0005, concept: 3001, term: 損しない投資, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ja_0006, concept: 3001, term: 高配当保証, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ja_0007, concept: 3001, term: 月利保証, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ja_0008, concept: 3001, term: リスクゼロ, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ja_0009, concept: 3001, term: 絶対に損しない, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: fraud_ja_0010, concept: 3001, term: 一攫千金, type: literal, rank: 2, ambiguity: 0.5, requires_context: true}
+  - {id: fraud_ja_0011, concept: 3002, term: アカウントが停止されます, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0012, concept: 3002, term: パスワードを入力してください, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0013, concept: 3002, term: 本人確認が必要です, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0014, concept: 3002, term: 下記のリンクをクリック, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0015, concept: 3002, term: 認証コードを教えて, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0016, concept: 3002, term: 口座が凍結, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0017, concept: 3002, term: 未払い料金があります, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0018, concept: 3002, term: お荷物をお届けできません, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0019, concept: 3003, term: ギフトカードを送って, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ja_0020, concept: 3003, term: 海外に派遣されている軍人, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ja_0021, concept: 3003, term: 愛しているから送金, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ja_0022, concept: 3003, term: お金を送ってください, type: literal, rank: 2, ambiguity: 0.65, requires_context: true}
+  - {id: fraud_ja_0023, concept: 3003, term: 税関で止まっています, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ja_0024, concept: 3004, term: 警察官を名乗, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ja_0025, concept: 3004, term: 安全な口座に移, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ja_0026, concept: 3004, term: 還付金があります, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ja_0027, concept: 3004, term: 捜査に協力, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ja_0028, concept: 3004, term: 口座が犯罪に利用, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ja_0029, concept: 3004, term: 携帯を変えました, type: literal, rank: 4, ambiguity: 0.3}
+  - {id: fraud_ja_0030, concept: 3005, term: 無担保融資, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0031, concept: 3005, term: 審査なしで融資, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0032, concept: 3005, term: ブラックでも借りられる, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0033, concept: 3005, term: 保証料を先に, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0034, concept: 3005, term: 手数料を先払い, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0035, concept: 3005, term: 即日融資, type: literal, rank: 2, ambiguity: 0.5}
+  - {id: fraud_ja_0036, concept: 3005, term: 総量規制対象外, type: literal, rank: 3, ambiguity: 0.35}
+  - {id: fraud_ja_0037, concept: 3006, term: 在宅ワークで高収入, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ja_0038, concept: 3006, term: 簡単副業, type: literal, rank: 2, ambiguity: 0.55}
+  - {id: fraud_ja_0039, concept: 3006, term: いいねを押すだけで, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ja_0040, concept: 3006, term: 登録料が必要, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ja_0041, concept: 3006, term: 研修費を先払い, type: literal, rank: 3, ambiguity: 0.4}
+  - {id: fraud_ja_0042, concept: 3006, term: 日給保証, type: literal, rank: 3, ambiguity: 0.4}
