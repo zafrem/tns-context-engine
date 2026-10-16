@@ -39,3 +39,8 @@ entries:
   - {id: illegal_ko_0036, concept: 4006, term: 유출 디비 판매, type: phrase, rank: 4, ambiguity: 0.25}
   - {id: illegal_ko_0037, concept: 4006, term: 카드 정보 판매, type: phrase, rank: 4, ambiguity: 0.25}
   - {id: illegal_ko_0038, concept: 4006, term: 명의 대여, type: phrase, rank: 3, ambiguity: 0.45}
+  - {id: illegal_ko_0039, concept: 4004, term: 아동 성착취물 판매, type: phrase, rank: 5, ambiguity: 0.1}
+  - {id: illegal_ko_0040, concept: 4004, term: 미성년자 음란물 구매, type: phrase, rank: 5, ambiguity: 0.1}
+  - {id: illegal_ko_0041, concept: 4004, term: 미성년자 성착취 영상 공유, type: phrase, rank: 5, ambiguity: 0.1}
+  - {id: illegal_ko_0042, concept: 4004, term: 아동 음란물 교환, type: phrase, rank: 5, ambiguity: 0.1}
+  - {id: illegal_ko_0043, concept: 4004, term: 미성년자 비공개 영상 판매, type: phrase, rank: 5, ambiguity: 0.15}

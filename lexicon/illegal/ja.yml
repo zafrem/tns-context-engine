@@ -33,3 +33,8 @@ entries:
   - {id: illegal_ja_0030, concept: 4006, term: 名簿販売, type: literal, rank: 4, ambiguity: 0.25}
   - {id: illegal_ja_0031, concept: 4006, term: クレジットカード情報販売, type: literal, rank: 4, ambiguity: 0.25}
   - {id: illegal_ja_0032, concept: 4006, term: 他人名義の口座, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_ja_0033, concept: 4004, term: 児童ポルノ販売, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_ja_0034, concept: 4004, term: 未成年のわいせつ動画販売, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_ja_0035, concept: 4004, term: 児童ポルノ交換, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_ja_0036, concept: 4004, term: 未成年わいせつ画像購入, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_ja_0037, concept: 4004, term: 児童性的搾取動画譲ります, type: literal, rank: 5, ambiguity: 0.1}

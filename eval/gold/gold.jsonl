@@ -64,3 +64,50 @@
 {"text": "今日は天気が良いので会議は金曜日に移しました。", "lang": "ja", "labels": [], "source": "synthetic", "license": "CC0-1.0"}
 {"text": "今天天气很好，会议改到星期五了。", "lang": "zh-hans", "labels": [], "source": "synthetic", "license": "CC0-1.0"}
 {"text": "今天天氣很好，會議改到星期五了。", "lang": "zh-hant", "labels": [], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: worthless piece of trash. Reply soon.", "lang": "en", "labels": [{"concept": 1001, "span": [18, 42], "span_text": "worthless piece of trash"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: stole company funds. Reply soon.", "lang": "en", "labels": [{"concept": 1002, "span": [18, 37], "span_text": "stole company funds"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: leak your home address. Reply soon.", "lang": "en", "labels": [{"concept": 1003, "span": [18, 40], "span_text": "leak your home address"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: subhuman race. Reply soon.", "lang": "en", "labels": [{"concept": 2001, "span": [18, 31], "span_text": "subhuman race"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: women are inferior beings. Reply soon.", "lang": "en", "labels": [{"concept": 2002, "span": [18, 43], "span_text": "women are inferior beings"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: burn down their mosques. Reply soon.", "lang": "en", "labels": [{"concept": 2003, "span": [18, 41], "span_text": "burn down their mosques"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: disabled people should be euthanized. Reply soon.", "lang": "en", "labels": [{"concept": 2004, "span": [18, 54], "span_text": "disabled people should be euthanized"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: go back to your country. Reply soon.", "lang": "en", "labels": [{"concept": 2005, "span": [18, 41], "span_text": "go back to your country"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: trade child abuse material. Reply soon.", "lang": "en", "labels": [{"concept": 4004, "span": [18, 44], "span_text": "trade child abuse material"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "Message received: whatsapp 12345678. Reply soon.", "lang": "en", "labels": [{"concept": 9002, "span": [18, 35], "span_text": "whatsapp 12345678"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 인간 쓰레기 바로 연락하세요", "lang": "ko", "labels": [{"concept": 1001, "span": [8, 14], "span_text": "인간 쓰레기"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 공금을 횡령했다 바로 연락하세요", "lang": "ko", "labels": [{"concept": 1002, "span": [8, 16], "span_text": "공금을 횡령했다"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 신상 공개한다 바로 연락하세요", "lang": "ko", "labels": [{"concept": 1003, "span": [8, 15], "span_text": "신상 공개한다"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 미개한 외국인 바로 연락하세요", "lang": "ko", "labels": [{"concept": 2001, "span": [8, 15], "span_text": "미개한 외국인"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 여자는 열등한 존재 바로 연락하세요", "lang": "ko", "labels": [{"concept": 2002, "span": [8, 18], "span_text": "여자는 열등한 존재"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 사원을 불태워야 바로 연락하세요", "lang": "ko", "labels": [{"concept": 2003, "span": [8, 16], "span_text": "사원을 불태워야"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 장애인은 사회의 짐 바로 연락하세요", "lang": "ko", "labels": [{"concept": 2004, "span": [8, 18], "span_text": "장애인은 사회의 짐"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 너희 나라로 돌아가 바로 연락하세요", "lang": "ko", "labels": [{"concept": 2005, "span": [8, 18], "span_text": "너희 나라로 돌아가"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 아동 성착취물 판매 바로 연락하세요", "lang": "ko", "labels": [{"concept": 4004, "span": [8, 18], "span_text": "아동 성착취물 판매"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "받은 메시지: 원.금.보.장 바로 연락하세요", "lang": "ko", "labels": [{"concept": 9001, "span": [8, 15], "span_text": "원.금.보.장"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：人間のクズ。すぐ連絡を", "lang": "ja", "labels": [{"concept": 1001, "span": [8, 13], "span_text": "人間のクズ"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：会社の金を横領した。すぐ連絡を", "lang": "ja", "labels": [{"concept": 1002, "span": [8, 17], "span_text": "会社の金を横領した"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：個人情報を晒す。すぐ連絡を", "lang": "ja", "labels": [{"concept": 1003, "span": [8, 15], "span_text": "個人情報を晒す"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：劣等民族。すぐ連絡を", "lang": "ja", "labels": [{"concept": 2001, "span": [8, 12], "span_text": "劣等民族"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：女は劣等生物。すぐ連絡を", "lang": "ja", "labels": [{"concept": 2002, "span": [8, 14], "span_text": "女は劣等生物"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：モスクを焼き払え。すぐ連絡を", "lang": "ja", "labels": [{"concept": 2003, "span": [8, 16], "span_text": "モスクを焼き払え"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：障害者は社会の荷物。すぐ連絡を", "lang": "ja", "labels": [{"concept": 2004, "span": [8, 17], "span_text": "障害者は社会の荷物"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：国へ帰れ。すぐ連絡を", "lang": "ja", "labels": [{"concept": 2005, "span": [8, 12], "span_text": "国へ帰れ"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "受信メッセージ：児童ポルノ販売。すぐ連絡を", "lang": "ja", "labels": [{"concept": 4004, "span": [8, 15], "span_text": "児童ポルノ販売"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：人渣败类，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 1001, "span": [5, 9], "span_text": "人渣败类"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：挪用公款，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 1002, "span": [5, 9], "span_text": "挪用公款"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：曝光你的住址，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 1003, "span": [5, 11], "span_text": "曝光你的住址"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：低劣民族，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 2001, "span": [5, 9], "span_text": "低劣民族"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：女人就是低等生物，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 2002, "span": [5, 13], "span_text": "女人就是低等生物"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：烧毁清真寺，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 2003, "span": [5, 10], "span_text": "烧毁清真寺"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：残疾人是社会累赘，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 2004, "span": [5, 13], "span_text": "残疾人是社会累赘"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：滚回你的国家，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 2005, "span": [5, 11], "span_text": "滚回你的国家"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到消息：出售儿童色情视频，请尽快联系", "lang": "zh-hans", "labels": [{"concept": 4004, "span": [5, 13], "span_text": "出售儿童色情视频"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：人渣敗類，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 1001, "span": [5, 9], "span_text": "人渣敗類"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：挪用公款，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 1002, "span": [5, 9], "span_text": "挪用公款"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：曝光你的住址，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 1003, "span": [5, 11], "span_text": "曝光你的住址"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：低劣民族，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 2001, "span": [5, 9], "span_text": "低劣民族"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：女人就是低等生物，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 2002, "span": [5, 13], "span_text": "女人就是低等生物"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：燒毀清真寺，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 2003, "span": [5, 10], "span_text": "燒毀清真寺"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：殘疾人是社會累贅，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 2004, "span": [5, 13], "span_text": "殘疾人是社會累贅"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：滾回你的國家，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 2005, "span": [5, 11], "span_text": "滾回你的國家"}], "source": "synthetic", "license": "CC0-1.0"}
+{"text": "收到訊息：出售兒童色情影片，請盡快聯繫", "lang": "zh-hant", "labels": [{"concept": 4004, "span": [5, 13], "span_text": "出售兒童色情影片"}], "source": "synthetic", "license": "CC0-1.0"}

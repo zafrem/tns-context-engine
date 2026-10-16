@@ -1,0 +1,35 @@
+namespace: patterns.obfuscation_marker
+lang: und
+entries:
+  - id: patterns_obfuscation_marker_0001
+    concept: 9001
+    term: "[\u200B\u200C\u200D\uFEFF\u2060\u00AD]{2,}"
+    type: regex
+    rank: 1
+    ambiguity: 0.4
+    always_run: true
+    notes: "Multiple consecutive zero-width or invisible characters used to break tokenization."
+  - id: patterns_obfuscation_marker_0002
+    concept: 9001
+    term: '\b[A-Za-z][.*_-][A-Za-z][.*_-][A-Za-z][.*_-][A-Za-z]'
+    type: regex
+    rank: 1
+    ambiguity: 0.5
+    always_run: true
+    notes: "ASCII word broken by repeated punctuation separators."
+  - id: patterns_obfuscation_marker_0003
+    concept: 9001
+    term: '\p{Hangul}[.*_·~-]\p{Hangul}[.*_·~-]\p{Hangul}'
+    type: regex
+    rank: 1
+    ambiguity: 0.45
+    always_run: true
+    notes: "Hangul syllables separated by inserted evasion symbols."
+  - id: patterns_obfuscation_marker_0004
+    concept: 9001
+    term: '\p{Han}[.*_·~-]\p{Han}[.*_·~-]\p{Han}'
+    type: regex
+    rank: 1
+    ambiguity: 0.45
+    always_run: true
+    notes: "Han characters separated by inserted evasion symbols."

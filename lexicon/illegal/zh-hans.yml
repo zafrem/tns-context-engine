@@ -43,3 +43,8 @@ entries:
   - {id: illegal_zh-hans_0040, concept: 4006, term: 数据库出售, type: literal, rank: 4, ambiguity: 0.25}
   - {id: illegal_zh-hans_0041, concept: 4006, term: 买卖账号, type: literal, rank: 3, ambiguity: 0.5}
   - {id: illegal_zh-hans_0042, concept: 4006, term: 公民信息查询, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_zh-hans_0043, concept: 4004, term: 出售儿童色情视频, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_zh-hans_0044, concept: 4004, term: 购买未成年人不良视频, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_zh-hans_0045, concept: 4004, term: 交换儿童色情资源, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_zh-hans_0046, concept: 4004, term: 售卖幼女私密视频, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_zh-hans_0047, concept: 4004, term: 未成年色情资源群, type: literal, rank: 5, ambiguity: 0.1}

@@ -40,3 +40,8 @@ entries:
   - {id: illegal_en_0037, concept: 4006, term: buy social security numbers, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
   - {id: illegal_en_0038, concept: 4006, term: cvv shop, type: phrase, rank: 4, ambiguity: 0.25, flags: [IGNORECASE]}
   - {id: illegal_en_0039, concept: 4006, term: dumps with pin, type: phrase, rank: 4, ambiguity: 0.2, flags: [IGNORECASE]}
+  - {id: illegal_en_0040, concept: 4004, term: trade underage videos, type: phrase, rank: 5, ambiguity: 0.1, flags: [IGNORECASE]}
+  - {id: illegal_en_0041, concept: 4004, term: buy minor exploitation videos, type: phrase, rank: 5, ambiguity: 0.1, flags: [IGNORECASE]}
+  - {id: illegal_en_0042, concept: 4004, term: sell underage explicit photos, type: phrase, rank: 5, ambiguity: 0.1, flags: [IGNORECASE]}
+  - {id: illegal_en_0043, concept: 4004, term: underage explicit link, type: phrase, rank: 5, ambiguity: 0.1, flags: [IGNORECASE]}
+  - {id: illegal_en_0044, concept: 4004, term: trade child abuse material, type: phrase, rank: 5, ambiguity: 0.1, flags: [IGNORECASE]}

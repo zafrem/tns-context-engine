@@ -43,3 +43,8 @@ entries:
   - {id: illegal_zh-hant_0040, concept: 4006, term: 資料庫出售, type: literal, rank: 4, ambiguity: 0.25}
   - {id: illegal_zh-hant_0041, concept: 4006, term: 買賣帳號, type: literal, rank: 3, ambiguity: 0.5}
   - {id: illegal_zh-hant_0042, concept: 4006, term: 公民資訊查詢, type: literal, rank: 4, ambiguity: 0.25}
+  - {id: illegal_zh-hant_0043, concept: 4004, term: 出售兒童色情影片, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_zh-hant_0044, concept: 4004, term: 購買未成年人不良影片, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_zh-hant_0045, concept: 4004, term: 交換兒童色情資源, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_zh-hant_0046, concept: 4004, term: 售賣幼女私密影片, type: literal, rank: 5, ambiguity: 0.1}
+  - {id: illegal_zh-hant_0047, concept: 4004, term: 未成年色情資源群, type: literal, rank: 5, ambiguity: 0.1}

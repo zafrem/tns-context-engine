@@ -16,10 +16,10 @@ Languages (lowercase BCP 47): `en`, `ko`, `ja`, `zh-hans`, `zh-hant`.
 ## Status
 
 Foundation release (`data_version` 0.1.0). The structure, schemas, contracts and
-integrity tests are complete. The lexicon now has a first **draft** of the fraud and illegal categories
-(about 400 entries across all five languages; drafts awaiting native-speaker and
-policy review). Defamation and hate hold only seed entries, there are no
-entries for the CSAM concept, and rank and ambiguity values are uncalibrated.
+integrity tests are complete. The lexicon now has a first **draft** across all
+four categories (defamation, hate, fraud and illegal) and cross-cutting patterns
+(about 680 entries across all five languages; drafts awaiting native-speaker and
+policy review), and rank and ambiguity values are uncalibrated.
 See "Open items" in
 `docs/superpowers/specs/2026-10-16-tns-context-engine-design.md`.
 

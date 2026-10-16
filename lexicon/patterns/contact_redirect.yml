@@ -9,3 +9,35 @@ entries:
     ambiguity: 0.5
     flags: [IGNORECASE]
     hit_keywords: [whatsapp, telegram, kakaotalk]
+  - id: patterns_contact_redirect_0002
+    concept: 9002
+    term: '\b(telegram|tg|wechat|weixin|line|kakaotalk|kakao|signal|discord)\b[^\n]{0,15}\b(id|add|dm|contact)\b[^\n]{0,15}[a-z0-9_.-]{4,}'
+    type: regex
+    rank: 2
+    ambiguity: 0.45
+    flags: [IGNORECASE]
+    hit_keywords: [telegram, wechat, weixin, line, kakaotalk, kakao, signal, discord]
+  - id: patterns_contact_redirect_0003
+    concept: 9002
+    term: '(t\.me|wa\.me|line\.me/ti/p|open\.kakao\.com/o)/[A-Za-z0-9_+~-]+'
+    type: regex
+    rank: 3
+    ambiguity: 0.35
+    flags: [IGNORECASE]
+    hit_keywords: [t.me, wa.me, line.me, open.kakao.com]
+  - id: patterns_contact_redirect_0004
+    concept: 9002
+    term: '(카톡|카카오톡|텔레그램|텔레|라인|위챗)[^\n]{0,12}[A-Za-z0-9_]{4,}'
+    type: regex
+    rank: 2
+    ambiguity: 0.45
+    flags: [IGNORECASE]
+    hit_keywords: [카톡, 카카오톡, 텔레그램, 텔레, 라인, 위챗]
+  - id: patterns_contact_redirect_0005
+    concept: 9002
+    term: '(加微信|加微|微信号|微信號|加賴|加line|电报|電報)[^\n]{0,12}[A-Za-z0-9_-]{4,}'
+    type: regex
+    rank: 2
+    ambiguity: 0.4
+    flags: [IGNORECASE]
+    hit_keywords: [加微信, 加微, 微信号, 微信號, 加賴, 加line, 电报, 電報]
