@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LLM stage verdict",
+  "type": "object", "additionalProperties": false,
+  "required": ["scores", "label", "model_id", "prompt_version"],
+  "properties": {
+    "scores": {
+      "type": "object", "minProperties": 1,
+      "additionalProperties": {"type": "number", "minimum": 0, "maximum": 100}
+    },
+    "label": {"enum": ["definite", "probable", "possible", "clean"]},
+    "rationale": {"type": "string"},
+    "model_id": {"type": "string", "minLength": 1},
+    "prompt_version": {"type": "integer", "minimum": 1}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LLM stage request",
+  "type": "object", "additionalProperties": false,
+  "required": ["text", "lang", "spans", "prompt_template_id"],
+  "properties": {
+    "text": {"type": "string"},
+    "lang": {"enum": ["en", "ko", "ja", "zh-hans", "zh-hant"]},
+    "spans": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["span", "concept"],
+        "properties": {
+          "span": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 0}},
+          "concept": {"type": "integer", "minimum": 1000, "maximum": 9999}
+        }
+      }
+    },
+    "prompt_template_id": {"type": "string", "pattern": "^[a-z_]+\\.[a-z0-9-]+$"}
+  }
+}

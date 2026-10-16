@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NLP stage result",
+  "type": "object", "additionalProperties": false,
+  "required": ["score", "signals"],
+  "properties": {
+    "score": {"type": "number", "minimum": 0, "maximum": 100},
+    "signals": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "negation": {"type": "boolean"},
+        "quotation": {"type": "boolean"},
+        "target_person": {"type": "boolean"},
+        "intent": {"type": "string", "minLength": 1},
+        "sentiment": {"type": "number", "minimum": -1, "maximum": 1}
+      }
+    }
+  }
+}

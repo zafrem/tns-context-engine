@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Constrained-decoding output for small LLM judges",
+  "type": "object", "additionalProperties": false,
+  "required": ["scores", "label"],
+  "properties": {
+    "scores": {
+      "type": "object", "additionalProperties": false,
+      "required": ["defamation", "hate", "fraud", "illegal"],
+      "properties": {
+        "defamation": {"type": "integer", "minimum": 0, "maximum": 100},
+        "hate": {"type": "integer", "minimum": 0, "maximum": 100},
+        "fraud": {"type": "integer", "minimum": 0, "maximum": 100},
+        "illegal": {"type": "integer", "minimum": 0, "maximum": 100}
+      }
+    },
+    "label": {"enum": ["definite", "probable", "possible", "clean"]},
+    "rationale": {"type": "string", "maxLength": 300}
+  }
+}

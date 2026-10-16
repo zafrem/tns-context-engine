@@ -1,0 +1,30 @@
+schema_version: 1
+models:
+  nlp.context.ko:
+    kind: nlp
+    stage: 2
+    lang: [ko]
+    hf_repo: null
+    revision: null
+    sha256: null
+    format: onnx
+    input_contract: schemas/nlp_request.schema.json
+    output_contract: schemas/nlp_result.schema.json
+    prompt_template: null
+    min_schema_version: 1
+    trained_on: null
+    status: planned
+  llm.judge.fraud.en:
+    kind: llm
+    stage: 3
+    lang: [en]
+    hf_repo: null
+    revision: null
+    sha256: null
+    format: gguf
+    input_contract: schemas/llm_request.schema.json
+    output_contract: schemas/llm_verdict.schema.json
+    prompt_template: fraud.en
+    min_schema_version: 1
+    trained_on: null
+    status: planned

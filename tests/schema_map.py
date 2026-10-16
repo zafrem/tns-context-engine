@@ -23,3 +23,7 @@ GLOBS += [
     ("context/*.yml", "context"),
     ("scoring/scoring.yml", "scoring"),
 ]
+
+GLOBS += [
+    ("models/registry.yml", "models"),
+]
