@@ -1,0 +1,12 @@
+lang: ko
+rules:
+  - id: ko_strip_invisible
+    type: strip
+    chars: ["​", "‌", "‍", "﻿"]
+  - id: ko_strip_inserted_symbols
+    type: strip_between
+    chars: [".", "-", "*", "·"]
+    between: "가-힣"
+fixtures:
+  - {input: "원.금.보.장", expected: "원금보장"}
+  - {input: "원*금-보·장", expected: "원금보장"}

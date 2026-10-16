@@ -1,0 +1,11 @@
+lang: zh-hans
+rules:
+  - id: zh_hans_nfkc
+    type: nfkc
+  - id: zh_hans_strip_inserted_symbols
+    type: strip_between
+    chars: [".", "-", "*", " "]
+    between: "一-鿿"
+fixtures:
+  - {input: "稳*赚*不*赔", expected: "稳赚不赔"}
+  - {input: "稳 赚 不 赔", expected: "稳赚不赔"}

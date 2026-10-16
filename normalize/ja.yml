@@ -1,0 +1,11 @@
+lang: ja
+rules:
+  - id: ja_nfkc
+    type: nfkc
+  - id: ja_strip_inserted_symbols
+    type: strip_between
+    chars: [".", "-", "*", "・"]
+    between: "぀-ヿ一-鿿"
+fixtures:
+  - {input: "ﾏﾈｰ", expected: "マネー"}
+  - {input: "元.本.保.証", expected: "元本保証"}

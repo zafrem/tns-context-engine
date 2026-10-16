@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "normalize/<lang>.yml",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["lang", "rules", "fixtures"],
+  "properties": {
+    "lang": {"type": "string", "pattern": "^[a-z]{2,3}(-[a-z]{4})?$"},
+    "rules": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/rule"}},
+    "fixtures": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["input", "expected"],
+        "properties": {"input": {"type": "string"}, "expected": {"type": "string"}}
+      }
+    }
+  },
+  "$defs": {
+    "rule": {
+      "type": "object",
+      "required": ["id", "type"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+        "type": {"enum": ["strip", "map", "strip_between", "nfkc", "collapse_repeats"]},
+        "chars": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1, "maxLength": 1}},
+        "mapping": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string"}},
+        "between": {"type": "string", "minLength": 1},
+        "max_run": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {"if": {"properties": {"type": {"const": "strip"}}}, "then": {"required": ["chars"]}},
+        {"if": {"properties": {"type": {"const": "map"}}}, "then": {"required": ["mapping"]}},
+        {"if": {"properties": {"type": {"const": "strip_between"}}}, "then": {"required": ["chars", "between"]}},
+        {"if": {"properties": {"type": {"const": "collapse_repeats"}}}, "then": {"required": ["max_run"]}}
+      ]
+    }
+  }
+}

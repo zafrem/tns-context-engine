@@ -1,0 +1,11 @@
+lang: zh-hant
+rules:
+  - id: zh_hant_nfkc
+    type: nfkc
+  - id: zh_hant_strip_inserted_symbols
+    type: strip_between
+    chars: [".", "-", "*", " "]
+    between: "一-鿿"
+fixtures:
+  - {input: "穩*賺*不*賠", expected: "穩賺不賠"}
+  - {input: "穩 賺 不 賠", expected: "穩賺不賠"}

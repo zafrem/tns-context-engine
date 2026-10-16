@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "stopwords/<lang>.yml",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["lang", "words"],
+  "properties": {
+    "lang": {"type": "string", "pattern": "^[a-z]{2,3}(-[a-z]{4})?$"},
+    "words": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+  }
+}

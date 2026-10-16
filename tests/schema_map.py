@@ -13,3 +13,8 @@ GLOBS = [
 GLOBS += [
     ("lexicon/*/*.yml", "lexicon"),
 ]
+
+GLOBS += [
+    ("normalize/*.yml", "normalize"),
+    ("stopwords/*.yml", "stopwords"),
+]
