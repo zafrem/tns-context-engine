@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "scoring/scoring.yml",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "rank_weight", "corroboration", "fuse", "floor", "thresholds", "category_overrides", "router"],
+  "properties": {
+    "version": {"type": "integer", "minimum": 1},
+    "rank_weight": {"type": "array", "minItems": 5, "maxItems": 5, "items": {"type": "integer", "minimum": 0, "maximum": 100}},
+    "corroboration": {
+      "type": "object", "additionalProperties": false, "required": ["step", "cap"],
+      "properties": {"step": {"type": "integer", "minimum": 0}, "cap": {"type": "integer", "minimum": 0}}
+    },
+    "fuse": {
+      "type": "object", "additionalProperties": false, "required": ["method", "weights"],
+      "properties": {
+        "method": {"enum": ["max", "weighted"]},
+        "weights": {
+          "type": "object", "additionalProperties": false, "required": ["stage1", "nlp", "llm"],
+          "properties": {
+            "stage1": {"type": "number", "minimum": 0, "maximum": 1},
+            "nlp": {"type": "number", "minimum": 0, "maximum": 1},
+            "llm": {"type": "number", "minimum": 0, "maximum": 1}
+          }
+        }
+      }
+    },
+    "floor": {
+      "type": "object", "additionalProperties": false, "required": ["rank", "min_score"],
+      "properties": {"rank": {"type": "integer", "minimum": 1, "maximum": 5}, "min_score": {"type": "integer", "minimum": 0, "maximum": 100}}
+    },
+    "thresholds": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["min", "label", "action"],
+        "properties": {
+          "min": {"type": "integer", "minimum": 0, "maximum": 100},
+          "label": {"enum": ["definite", "probable", "possible", "clean"]},
+          "action": {"enum": ["block", "review", "flag", "pass"]}
+        }
+      }
+    },
+    "category_overrides": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object", "additionalProperties": false,
+        "properties": {
+          "block_min": {"type": "integer", "minimum": 0, "maximum": 100},
+          "floor_min_score": {"type": "integer", "minimum": 0, "maximum": 100}
+        }
+      }
+    },
+    "router": {
+      "type": "object", "additionalProperties": false,
+      "required": ["definite_min", "clean_below", "nlp_confident_hi", "nlp_confident_lo"],
+      "properties": {
+        "definite_min": {"type": "integer", "minimum": 0, "maximum": 100},
+        "clean_below": {"type": "integer", "minimum": 0, "maximum": 100},
+        "nlp_confident_hi": {"type": "integer", "minimum": 0, "maximum": 100},
+        "nlp_confident_lo": {"type": "integer", "minimum": 0, "maximum": 100}
+      }
+    }
+  }
+}

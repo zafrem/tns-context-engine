@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "context/<lang>.yml",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["lang", "rules"],
+  "properties": {
+    "lang": {"type": "string", "pattern": "^[a-z]{2,3}(-[a-z]{4})?$"},
+    "rules": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "type", "terms", "adjust"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+          "type": {"enum": ["negation", "quotation", "news_report", "target_person", "imperative"]},
+          "terms": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "adjust": {"type": "integer", "minimum": -50, "maximum": 50}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+lang: en
+rules:
+  - {id: en_news_report, type: news_report, terms: [reported, according to, allegedly], adjust: -15}

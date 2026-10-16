@@ -1,0 +1,3 @@
+lang: zh-hans
+rules:
+  - {id: zh_hans_news_report, type: news_report, terms: [据报道, 根据], adjust: -15}

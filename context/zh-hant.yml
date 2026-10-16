@@ -1,0 +1,3 @@
+lang: zh-hant
+rules:
+  - {id: zh_hant_news_report, type: news_report, terms: [據報導, 根據], adjust: -15}

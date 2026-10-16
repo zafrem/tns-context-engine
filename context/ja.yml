@@ -1,0 +1,3 @@
+lang: ja
+rules:
+  - {id: ja_news_report, type: news_report, terms: [報道, によると], adjust: -15}

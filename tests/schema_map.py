@@ -18,3 +18,8 @@ GLOBS += [
     ("normalize/*.yml", "normalize"),
     ("stopwords/*.yml", "stopwords"),
 ]
+
+GLOBS += [
+    ("context/*.yml", "context"),
+    ("scoring/scoring.yml", "scoring"),
+]

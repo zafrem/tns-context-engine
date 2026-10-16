@@ -1,0 +1,3 @@
+lang: ko
+rules:
+  - {id: ko_news_report, type: news_report, terms: [보도, 에 따르면], adjust: -15}
