@@ -73,6 +73,14 @@ NLP and LLM stages are optional; without them report `stage_reached: 1`.
    spans, not raw text.
 
 ## Model stages
+`fuse.method` combines stage scores: `max` keeps the highest; `weighted` is the
+weighted mean of the stages that ran (`fuse.weights`); `veto` is `max` unless
+the NLP stage reports a non-abusive frame (`signals.quotation` or
+`signals.negation` true, or `signals.intent` one of `report`, `media`,
+`discussion`), in which case the score of the NLP/LLM stages (the higher one)
+is a ceiling on the final score. The rank `floor` is applied after fusion in
+every method, so a floored hit never ends below `floor.min_score`.
+
 `models/registry.yml` holds pointers only. Resolve `hf_repo` at `revision`
 (never a branch), verify `sha256` when present, and validate requests/results
 against the entry's `input_contract`/`output_contract`. LLM prompts live in

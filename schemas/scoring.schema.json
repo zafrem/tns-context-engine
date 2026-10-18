@@ -14,7 +14,7 @@
     "fuse": {
       "type": "object", "additionalProperties": false, "required": ["method", "weights"],
       "properties": {
-        "method": {"enum": ["max", "weighted"]},
+        "method": {"enum": ["max", "weighted", "veto"]},
         "weights": {
           "type": "object", "additionalProperties": false, "required": ["stage1", "nlp", "llm"],
           "properties": {
